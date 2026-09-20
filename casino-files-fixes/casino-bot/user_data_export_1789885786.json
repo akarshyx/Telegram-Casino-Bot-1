@@ -1,9 +1,9 @@
 {
-  "timestamp": 1789667492.7448008,
-  "export_date": "Thu Sep 17 17:51:32 2026",
+  "timestamp": 1789885786.1457744,
+  "export_date": "Sun Sep 20 06:29:46 2026",
   "total_users": 2,
   "user_balances": {
-    "8598790977": 521.98,
+    "8598790977": 561.98,
     "1": 0.0
   },
   "user_profiles": {
@@ -168,39 +168,7 @@
   "user_raffle_tickets": {},
   "pending_deposits": {},
   "pending_withdrawals": {},
-  "active_games": {
-    "8598790977": {
-      "_created_at": 1789667001.111906,
-      "type": "sports_dice_bot",
-      "game_name": "dice",
-      "username": "arshxy",
-      "emoji": "\ud83c\udfb2",
-      "dice_emoji": "\ud83c\udfb2",
-      "bot_last_total": 0,
-      "wins_needed": 2,
-      "rolls": 3,
-      "bet_amount": 40.0,
-      "player_wins": 0,
-      "bot_wins": 0,
-      "round": 1,
-      "state": "waiting_player_roll",
-      "player_round_rolls": 0,
-      "player_round_total": 0,
-      "bot_round_rolls": 3,
-      "bot_round_total": 11,
-      "chat_id": 8598790977,
-      "chat_type": "private",
-      "last_active": 1789667001.111977,
-      "created_at": 1789667001.1119776,
-      "start_msg_id": 2308,
-      "start_msg_chat_id": 8598790977,
-      "is_crazy": false,
-      "bot_rolling_active": false,
-      "_roll_generation": 1,
-      "bot_has_rolled": true,
-      "auto_rolling_player": false
-    }
-  },
+  "active_games": {},
   "hilo_games": {},
   "crypto_house_balances": {
     "USDT": 1468.0

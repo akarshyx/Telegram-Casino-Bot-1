@@ -2,3 +2,4 @@
 - [Deposit notification retries](deposit-notification-retries.md) — persist credits first; mark Telegram notifications only after successful delivery and retry independently.
 - [Health route order](health-route-order.md) — register liveness paths before the single-segment web-app catch-all.
 - [Telegram custom emoji validity](custom-emoji-validity.md) — validate IDs with Telegram and keep Unicode fallbacks for IDs that become unavailable.
+- [Telegram bot workflow](telegram-bot-workflow.md) — the nested Python polling bot needs its own console workflow; the casino web artifact alone does not start Telegram polling.
