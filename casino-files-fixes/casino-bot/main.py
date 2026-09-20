@@ -21467,9 +21467,9 @@ async def handle_dr_play_callback(query, context: ContextTypes.DEFAULT_TYPE) -> 
     try:
         await query.edit_message_text(
             f'<tg-emoji emoji-id="5282843764451195532">🔮</tg-emoji> <b>Predict</b>\n\n'
-            f'<tg-emoji emoji-id="5287680751015497237">🎯</tg-emoji> Outcome: <b>{prediction_type}</b>\n'
+            f'🎯 Outcome: <b>{prediction_type}</b>\n'
             f'<tg-emoji emoji-id="5368324170671202286">✖️</tg-emoji> Multiplier: <b>{multiplier:.2f}x</b>\n'
-            f'<tg-emoji emoji-id="5361688766069086630">💰</tg-emoji> Bet: <b>{bet_display}</b>\n\n'
+            f'💰 Bet: <b>{bet_display}</b>\n\n'
             f'🎲 Rolling…',
             parse_mode=ParseMode.HTML
         )
@@ -21506,10 +21506,10 @@ async def handle_dr_play_callback(query, context: ContextTypes.DEFAULT_TYPE) -> 
             pass
         result_msg = (
             f'<tg-emoji emoji-id="5282843764451195532">🔮</tg-emoji> <b>Predict</b>\n\n'
-            f'<tg-emoji emoji-id="5287680751015497237">🎯</tg-emoji> Outcome: <b>{prediction_type}</b>\n'
+            f'🎯 Outcome: <b>{prediction_type}</b>\n'
             f'<tg-emoji emoji-id="5368324170671202286">✖️</tg-emoji> Multiplier: <b>{multiplier:.2f}x</b>\n'
-            f'<tg-emoji emoji-id="5361688766069086630">💰</tg-emoji> Bet: <b>{bet_display}</b> → <b>{win_display}</b>\n\n'
-            f'<tg-emoji emoji-id="5236811562904298490">🎲</tg-emoji> Rolled: <b>{dice_result}</b> ✅\n\n'
+            f'💰 Bet: <b>{bet_display}</b> → <b>{win_display}</b>\n\n'
+            f'<tg-emoji emoji-id="6233433019055612021">🎲</tg-emoji> Rolled: <b>{dice_result}</b> ✅\n\n'
             f'<tg-emoji emoji-id="5343777479091831702">💼</tg-emoji> Balance: <b>{new_bal_display}</b>'
         )
     else:
@@ -21519,10 +21519,10 @@ async def handle_dr_play_callback(query, context: ContextTypes.DEFAULT_TYPE) -> 
         new_bal_display = format_balance_in_currency(get_user_balance(user_id), user_currency)
         result_msg = (
             f'<tg-emoji emoji-id="5282843764451195532">🔮</tg-emoji> <b>Predict</b>\n\n'
-            f'<tg-emoji emoji-id="5287680751015497237">🎯</tg-emoji> Outcome: <b>{prediction_type}</b>\n'
+            f'🎯 Outcome: <b>{prediction_type}</b>\n'
             f'<tg-emoji emoji-id="5368324170671202286">✖️</tg-emoji> Multiplier: <b>{multiplier:.2f}x</b>\n'
-            f'<tg-emoji emoji-id="5361688766069086630">💰</tg-emoji> Bet: <b>{bet_display}</b> → <b>$0.00</b>\n\n'
-            f'<tg-emoji emoji-id="5236811562904298490">🎲</tg-emoji> Rolled: <b>{dice_result}</b> ❌\n\n'
+            f'💰 Bet: <b>{bet_display}</b> → <b>$0.00</b>\n\n'
+            f'<tg-emoji emoji-id="6233433019055612021">🎲</tg-emoji> Rolled: <b>{dice_result}</b> ❌\n\n'
             f'<tg-emoji emoji-id="5343777479091831702">💼</tg-emoji> Balance: <b>{new_bal_display}</b>'
         )
 
@@ -22158,10 +22158,10 @@ async def dice_range_command(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
             result_msg = (
                 f'<tg-emoji emoji-id="5282843764451195532">🔮</tg-emoji> <b>Predict</b>\n\n'
-                f'<tg-emoji emoji-id="5287680751015497237">🎯</tg-emoji> Outcome: <b>{prediction_type}</b>\n'
+                f'🎯 Outcome: <b>{prediction_type}</b>\n'
                 f'<tg-emoji emoji-id="5368324170671202286">✖️</tg-emoji> Multiplier: <b>{multiplier:.2f}x</b>\n'
-                f'<tg-emoji emoji-id="5361688766069086630">💰</tg-emoji> Bet: <b>{bet_val_display}</b> → <b>{win_val_display}</b>\n\n'
-                f'<tg-emoji emoji-id="5236811562904298490">🎲</tg-emoji> Rolled: <b>{dice_result}</b> ✅\n\n'
+                f'💰 Bet: <b>{bet_val_display}</b> → <b>{win_val_display}</b>\n\n'
+                f'<tg-emoji emoji-id="6233433019055612021">🎲</tg-emoji> Rolled: <b>{dice_result}</b> ✅\n\n'
                 f'<tg-emoji emoji-id="5343777479091831702">💼</tg-emoji> Balance: <b>{new_balance_display}</b>'
             )
         else:
@@ -22172,10 +22172,10 @@ async def dice_range_command(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
             result_msg = (
                 f'<tg-emoji emoji-id="5282843764451195532">🔮</tg-emoji> <b>Predict</b>\n\n'
-                f'<tg-emoji emoji-id="5287680751015497237">🎯</tg-emoji> Outcome: <b>{prediction_type}</b>\n'
+                f'🎯 Outcome: <b>{prediction_type}</b>\n'
                 f'<tg-emoji emoji-id="5368324170671202286">✖️</tg-emoji> Multiplier: <b>{multiplier:.2f}x</b>\n'
-                f'<tg-emoji emoji-id="5361688766069086630">💰</tg-emoji> Bet: <b>{bet_val_display}</b> → <b>$0.00</b>\n\n'
-                f'<tg-emoji emoji-id="5236811562904298490">🎲</tg-emoji> Rolled: <b>{dice_result}</b> ❌\n\n'
+                f'💰 Bet: <b>{bet_val_display}</b> → <b>$0.00</b>\n\n'
+                f'<tg-emoji emoji-id="6233433019055612021">🎲</tg-emoji> Rolled: <b>{dice_result}</b> ❌\n\n'
                 f'<tg-emoji emoji-id="5343777479091831702">💼</tg-emoji> Balance: <b>{new_balance_display}</b>'
             )
 
