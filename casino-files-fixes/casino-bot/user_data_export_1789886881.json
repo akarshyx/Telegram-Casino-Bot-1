@@ -1,9 +1,10 @@
 {
-  "timestamp": 1789667672.9193604,
-  "export_date": "Thu Sep 17 17:54:32 2026",
-  "total_users": 2,
+  "timestamp": 1789886881.6411514,
+  "export_date": "Sun Sep 20 06:48:01 2026",
+  "total_users": 3,
   "user_balances": {
-    "8598790977": 521.98,
+    "8598790977": 561.98,
+    "8639404236": 0.95238096,
     "1": 0.0
   },
   "user_profiles": {
@@ -18,6 +19,10 @@
       "lt_wagered": 330.0,
       "lt_first_game_ts": 1788104270,
       "lt_last_game_ts": 1788132718
+    },
+    "8639404236": {
+      "username": "rollersgamebot",
+      "first_name": "Rollers Casino"
     }
   },
   "user_levels": {},
@@ -168,41 +173,9 @@
   "user_raffle_tickets": {},
   "pending_deposits": {},
   "pending_withdrawals": {},
-  "active_games": {
-    "8598790977": {
-      "_created_at": 1789667001.111906,
-      "type": "sports_dice_bot",
-      "game_name": "dice",
-      "username": "arshxy",
-      "emoji": "\ud83c\udfb2",
-      "dice_emoji": "\ud83c\udfb2",
-      "bot_last_total": 0,
-      "wins_needed": 2,
-      "rolls": 3,
-      "bet_amount": 40.0,
-      "player_wins": 0,
-      "bot_wins": 0,
-      "round": 1,
-      "state": "waiting_player_roll",
-      "player_round_rolls": 0,
-      "player_round_total": 0,
-      "bot_round_rolls": 3,
-      "bot_round_total": 11,
-      "chat_id": 8598790977,
-      "chat_type": "private",
-      "last_active": 1789667001.111977,
-      "created_at": 1789667001.1119776,
-      "start_msg_id": 2308,
-      "start_msg_chat_id": 8598790977,
-      "is_crazy": false,
-      "bot_rolling_active": false,
-      "_roll_generation": 1,
-      "bot_has_rolled": true,
-      "auto_rolling_player": false
-    }
-  },
+  "active_games": {},
   "hilo_games": {},
   "crypto_house_balances": {
-    "USDT": 1468.0
+    "USDT": 1468.9523809523807
   }
 }
