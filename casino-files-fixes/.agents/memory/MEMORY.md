@@ -1,0 +1,1 @@
+- [TON/GRAM deposit aliases](ton-gram-deposits.md) — Native Toncoin may be labeled TON or GRAM; both must use native TON scanning and the TON USD rate.
